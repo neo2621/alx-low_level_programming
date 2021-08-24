@@ -5,6 +5,7 @@
   *
   * Return: Always 0
   */
+int main(void)
 {
 	_putchar('H');
 	_putchar('o');
@@ -19,4 +20,3 @@
 
 	return (0);
 }
-
