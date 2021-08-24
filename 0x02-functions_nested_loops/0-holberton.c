@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
-  * main - Entry point
-  *
-  * Return: Always 0
-  */
+ * main - program that prints _Putchar.
+ *
+ * Return: int
+ */
+
 int main(void)
 {
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
-	_putchar('n');
-	_putchar('\n');
+	int n = 0;
+	char str_hbt[9] = "Holberton";
 
+	while (n < 9)
+	{
+		_putchar(str_hbt[n]);
+		n += 1;
+	}
+	_putchar('\n');
 	return (0);
 }
