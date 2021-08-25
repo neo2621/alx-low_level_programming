@@ -1,21 +1,22 @@
 #include "main.h"
 
 /**
- * main - program that prints _Putchar.
+ * main - Prints "Holberton" followed by a new line.
  *
- * Return: int
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	int n = 0;
-	char str_hbt[9] = "Holberton";
-
-	while (n < 9)
-	{
-		_putchar(str_hbt[n]);
-		n += 1;
-	}
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
 	_putchar('\n');
+
 	return (0);
 }
